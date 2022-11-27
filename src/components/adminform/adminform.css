@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.ingridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 100%;
+}
+.data-div{
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    border: 1.2px solid #ededed;
+    font-family: 'poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    cursor: pointer;
+
+}
+.data-div:hover{
+    transform: scale(1.05);
+}
+.adminMaindiv{
+    font-family: poppins;
+    text-align: center;
+    border-top: 2px solid #0039a6;
+}
+.adminMaindiv h3{
+   opacity: .8;
+}
+.perOrderedItems{
+    margin: 15px auto;
+}
+.clientOrderData-div h3{
+    color: #ffac33;
+}
+.clientOrderData-div{
+    border-top: 2px solid #0039a6;
+}
+.userData-div{
+    height: 15rem;
+}
+.item-name{
+    color: #0039a6;
+}

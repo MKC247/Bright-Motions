@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+.administerform{
+    display: flex;
+    flex-direction: column;
+}
+.openForm{
+    width: 10rem;
+    height: 2.4rem;
+    cursor: pointer;
+    border: 1px solid #0039a6;
+    border-radius: 20px;
+    color: inherit;
+}
+.openForm:hover{
+     transform: scale(1.05);
+     background-color: #0039a6;
+     color: #fff;
+     font-weight: bold;
+}
+.openForm:active{
+    transform: scale(1);
+}
+.adminFormlisting{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #03002E;
+    font-family: poppins;
+}
+.adminFormlisting h2{
+    border-bottom: 2px solid #0039a6;
+}
+.adminFormlisting h3{
+    opacity: .8;
+}
+.adminform12{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.adminform12 input{
+    width: 90%;
+    border: 1px solid #b6996d;
+    border-radius: 10px;
+    height: 1.5rem;
+    text-align: center;
+}
+.adminChild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+.adminInputform{
+    width: 50%;
+    height: 21rem;
+    border: 1px solid #f5f5f5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-bottom: 3rem;
+}
+.adminInputform h3{
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+.adminButton{
+    margin-top: 10px;
+}
+.adminButton button{
+    margin: 5px;
+    border-radius: 20px;
+}
+.welcome-span{
+    color:#ffac33;
+}
+.adminButton .close{
+    background-color: #ffac33;
+    color: #fff;
+    font-weight: bold;
+}
+.adminButton .close:hover{
+    transform: scale(1.05);
+    background-color: #0039a6;
+}
+@media (max-width: 768px){
+    .adminInputform{
+        width: 100%;
+        margin-left: -5%;
+    }
+
+}
+

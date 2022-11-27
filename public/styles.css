@@ -1,0 +1,824 @@
+.main_container{
+    background-image: url("https://www.europeansprings.com/wp-content/uploads/2014/07/Car-Suspension.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.logoDiv{
+    display: inline-block;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.maindivheader{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.logoImg{
+    height: 3rem;
+    width: 3rem;
+    transform: scale(2);
+}
+html{
+    scroll-behavior: smooth;
+}
+.centered{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainContainerFilter{
+    background-color: rgba(4, 1, 14, 0.7);
+    width: 100%;
+    height: 100%;
+
+}
+
+.contactContainer{
+    padding-top: 10rem;
+}
+.MiscellaneousContainer{
+    background-color: #03002E;
+    height: 100vh;
+    width: 100%;
+    transform: skewY(9deg);
+    color: white;
+    
+
+}
+.socailsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.carouselContainerInfo{
+    transform: skewY(-9deg);
+    width: 100%;
+}
+.choiceContainerInfo{
+    padding-top: 5rem;
+
+}
+.choiceHeading{
+    background-color: #F77E21;
+    width: 19rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 6rem;
+}
+.mainChoiceHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choiceChildren{
+    display: flex;
+}
+.informationContainer{
+    height: 120vh;
+    width: 100%;
+}
+.muiIconsContainer{
+    border-bottom: 0;
+}
+.rotatedContentContainer{
+    transform: skewY(-9deg);
+}
+.bodyContainer{
+    padding-top: 10rem;
+}
+.big-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navigate{
+    color: #ffac33;
+    
+}
+.functionalContainer{
+    padding: 1.2rem;
+    background-image: linear-gradient(to bottom right, #191970, #0652C5);
+    margin: 10px;
+    width: 33.333%;
+    border-radius: 10px;
+
+}
+
+.muiIconsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.thisFunctionServiceContainer{
+    margin-left: 20px;
+}
+.functionServiceContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 10rem auto;
+}
+.functionServiceContainer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: 000000;
+}
+.functionServiceContainer p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.secondImageContainer{
+    width: 50%;
+}
+.firstserviceImage{
+    width: 80%;
+    height: 80%;
+}
+.secondServiceImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.dynamic{
+   color: #F77E21;
+}
+.informationSecondContainer{
+    align-items: left;
+    width: 100%;
+     padding-left: 2rem;  
+}
+.informationFunctionContainer{
+    align-items: left;
+    width: 100%;
+    padding-right: 2rem;
+}
+.muiIconsContainer h3{ 
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
+}
+.otherServiceContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #03002E;
+    margin-top: -10rem;
+}
+.buildIconContainer{
+    border-radius: 50px;
+    border: 2px solid #03002E;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carouselInformationContainer{
+    background-color: aliceblue;
+    width: 90%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: -2rem;
+    z-index: -1;
+    border: 1px solid #03002E;
+}
+.mainCarouselContainerInfo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.mainBuildIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicesOfferedContainer{
+    background-color: #03002E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+.MiscellaneousContainer p{
+    font-family: 'poppins', sans-serif;
+    font-size: 1.1rem;
+    opacity: 0.8;
+    margin: 0px;
+
+}
+.carousel-Information ul{
+    list-style: none;
+}
+.carousel-Information li{
+    color: #03002E;
+    font-weight: bold;
+    font-size: large;
+}
+.mainServiceOfferedContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.typographyContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.carousel-wrapper{
+    width: 100%;
+    color: #03002E;
+}
+.carousel-Information{
+    text-align: center;
+}
+.carousel-Information h1{
+    color: #03002E;
+}
+.carousel .control-dots{
+    opacity: 0;
+}
+.carouselContainer{
+    background-color: #F77E21;
+    transform: skewY(9deg);
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigate ul{
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+}
+.navigate ul li{
+    list-style: none;
+    margin: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+ 
+li{
+  color: #ffac33;
+}
+.contactHeadingContainer{
+   background-color: #F77E21;
+   color: white;
+   width: 14rem;
+   text-align: center;
+   border-radius: 5px;
+   height: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 4rem;
+}
+.contactUsContentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+}
+textarea{
+    height: 111px;
+}
+.contactHeadingContainer h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navigation1ref{
+    text-decoration: none;
+    color: #ffac33;
+    font-family: sans-serif;
+}
+
+.contactUsContentContainer{
+    display: flex;
+    justify-content: right;
+}
+.contactFormContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contactDetails{
+    color: white;
+    width: 100%;
+    margin-left: 20px;
+
+}
+.contactInput{
+    width: 90%;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    margin: 5px auto;
+    border-radius: 5px;
+    height: 2rem;
+
+}
+.contactTextArea{
+    width: 90%;
+    height: 14rem;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+
+}
+.contactUsform{
+    background-color: white;
+    width: 70%;
+    border-radius: 1px;
+}
+.mainContactContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginform1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.loginform2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.login3form{
+    border: 2px solid grey;
+    height: 50vh;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px #A7A7A7;
+    margin-top: 10%;
+    background-color: #FAF9F6;
+}
+.login3form h1{
+    color: #0039a6;
+    font-family: sans-serif;
+}
+
+
+.formInput1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.formInput1 input{
+    margin-top: 10px;
+    width: 70%;
+    height: 2rem;
+}
+
+.quickfix1{
+    border-radius: 10px;
+    border: 1px solid #03002E;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://www.confused.com/-/media/confused/articles/buying/best-worst/man-looking-at-engine-final-tiny.jpg?la=en-gb&hash=9F2F1005193D98F43909098414436A66FF5CA4EC');
+    margin-right: 20px;
+}
+.service2{
+    width: 100%;
+    margin-top: -23%;
+}
+.filter2{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    border-radius: 10px;
+}
+.filter3 li{
+    opacity: 1;
+    color: white;
+}
+.filter3 ul{
+    list-style: none;
+}
+.filter3 h1{
+    color: #F77E21;
+    opacity: 1;
+}
+.service2{
+    color: #03002E;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loginform2 button{
+    margin-top: 3rem;
+}
+.submitbutton{
+    background-color: #fff;
+    height: 2.5rem;
+    width: 40%;
+    border: 2px solid #0039a6;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: #0039a6;
+    
+}
+.mainappbar{
+    color: #0039a6;
+}
+.submitbutton:hover{
+    background-color: #0039a6;
+    color: white;
+    transform: scale(1.1);
+}
+.submitbutton:active{
+    transform: scale(1);
+}
+.logoutButton{
+    border-radius: 3px;
+    background-color: inherit;
+    color: #ffac33;
+    font-weight: bold;
+    border: .5px solid #ffac33;
+    opacity: .9;
+    height: 1.5rem;
+    margin-top: 10px;
+}
+.logoutButton:hover{
+    transform: scale(1.1);
+    background-color: #ffac33;
+    color: #03002E;
+}
+.logoutButton:active{
+    transform: scale(0.9);
+}
+.headerp{
+    border-radius: 3px;
+    background-color: inherit;
+    color: #ffac33;
+    font-weight: bold;
+    height: 1.5rem;
+    border: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.header{
+    background-color: #0039a6;
+}
+.grid-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+.cardlayouts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 33.33%;
+}
+.cardimage{
+    height: 100%;
+    width: 100%;
+}
+.cardData{
+ align-items: center;
+ text-align: center;
+}
+.loadingStatus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0039a6;
+}
+
+
+@media (max-width: 1300px){
+    .formInput1 input{
+        width: 70%;
+    }
+    
+    .login3form{
+        width: 70%;
+    }
+}
+@media (max-width: 1300px){
+    .carouselContainer{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+    .carousel1{
+        width: 100%;
+    }
+    .quickfix1{
+        width: 90%;
+        margin-left: 5%;
+
+    }
+
+    .service2{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+}
+  
+@media (max-width: 768px){
+.formInput1 input{
+    width: 90%;
+}
+.logoImg{
+    height: 2rem;
+    width: 2.5rem;
+    transform: scale(2);
+}
+.maindivheader{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.login3form{
+    width: 97%;
+    height: 65vh;
+}
+
+.functionServiceContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10rem auto;
+    
+}
+.socailsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactDetails{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 2.5rem;
+     margin-left: 0px;
+}
+.contactDetails h2{
+    color: #F77E21;
+}
+.contactDetails P{
+    margin-top: 2px;
+}
+.contactUsContentContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactFormContainer{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.otherServiceContainer{
+    height: 170vh;
+}
+
+.informationFunctionContainer{
+    align-items: center;
+    width: 100%;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.informationFunctionContainer h1{
+    text-align: center;
+}
+.muiIconsContainer h3{
+    text-align: center;
+}
+
+.secondImageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informationSecondContainer{
+    margin-top: -8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstserviceImage{
+    width: 70%;
+    height: 70%;
+    margin-bottom: 2rem;
+}
+.navigate ul{
+    display: none;
+    flex-flow: column nowrap;
+    background-color: white;
+    width: 300px;
+    height: 100vh;
+    margin-top: 0;
+    position: fixed;
+    right: 0;
+    padding-top: 3.5rem;
+
+
+}
+.functionalContainer{
+    width: 95%;
+    margin: 10px 0;
+    padding: 50px 0;
+    height: 33.33%;
+
+}
+.functionalContainer p{
+    text-align: center
+}
+.carouselInformationContainer{
+    padding-top: 5rem;
+}
+.navigate li{
+    color: #03002E;
+}
+.choiceChildren{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.choiceHeading{
+    width: 15rem;
+    margin-bottom: 2rem;
+    
+}
+.informationContainer{
+    height: 140vh;
+}
+.MiscellaneousContainer{
+    height: 200vh;
+}
+.choiceContainerInfo{
+    margin: 0;
+}
+.contactUsform{
+    width: 90%;
+}
+
+}
+
+
+@media (max-width: 512px){
+    .MiscellaneousContainer{
+     height: 160vh;
+    }
+    .carouselInformationContainer{
+        width: 100%;
+    }
+    .quickfix1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .carousel-Information li{
+        margin-left: -15%;
+
+    }
+
+ }
+ @media (max-width: 512px){
+    .carouselContainer{
+        height: 150vh;
+    }
+ }
+ @media (max-width: 414px){
+    .otherServiceContainer{
+        height: 120vh;
+    }
+ }
+
+ @media (max-width: 390px){
+    .MiscellaneousContainer{
+     height: 175vh;
+    }
+ }
+ @media (max-width: 375px){
+    .MiscellaneousContainer{
+        height: 220vh;
+    }
+    .carouselContainer{
+        height: 200vh;
+    }
+    .otherServiceContainer{
+        height: 170vh;
+    }
+    .informationContainer{
+        height: 170vh;
+    }
+ }
+ @media (max-width: 360px){
+    .MiscellaneousContainer{
+        height: 200vh;
+    }
+    .otherServiceContainer{
+        height: 150vh;
+    }
+    .carouselContainer{
+        height: 170vh;
+    }
+    .informationContainer{
+        height: 160vh;
+    }
+ }
+
+@media (max-width: 300px){
+    .bodyContainer{
+        padding-top: 7rem;
+    }
+    .MiscellaneousContainer{
+        height: 250vh;
+    }
+    .contactUsform{
+        width: 90%;
+    }
+    .carousel-wrapper{
+        margin-top: -6rem;
+    }
+    .informationContainer{
+        height: 200vh;
+    }
+    .login3form{
+        height: 80vh;
+    }
+   
+
+}
+
+
+
+
